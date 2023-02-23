@@ -1,0 +1,9 @@
+li {
+  font-weight: 600;
+  color: #707070;
+  cursor: pointer;
+}
+
+li:hover {
+  color: #d4255b;
+}

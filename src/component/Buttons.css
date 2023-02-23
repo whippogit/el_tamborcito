@@ -1,0 +1,26 @@
+.button-group {
+  margin: 140px;
+}
+
+a {
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.buttonLink {
+  width: 398px;
+  height: 147px;
+  border-radius: 20px;
+  background: rgb(212, 37, 91);
+  background: radial-gradient(
+    circle,
+    rgba(212, 37, 91, 1) 45%,
+    rgba(252, 70, 107, 1) 88%
+  );
+}
