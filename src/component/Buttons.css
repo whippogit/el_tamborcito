@@ -14,5 +14,10 @@
     rgba(212, 37, 91, 1) 45%,
     rgba(252, 70, 107, 1) 88%
   );
-  filter: brightness(0.5);
+  
+}
+
+.buttonLink:hover{
+  box-shadow: 1px 1px 1px 1px rgba(208, 206, 206, 0.841);
+  
 }

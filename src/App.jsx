@@ -14,7 +14,7 @@ function App() {
             <h1 className="ps-5 p-2 fw-bold"><b>el</b>tamborcito<b>.com</b></h1>
           </div>
           <div className="col">
-            <Search />
+            
           </div>
         </div>
 

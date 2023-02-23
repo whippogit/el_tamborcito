@@ -6,7 +6,7 @@ function Buttons() {
       <div className="col-3">
         <a href="">
           <img
-            src="src/component/img/chamameBaile.jpg"
+            src="src/component/img/boton-leyenda.jpg"
             alt="carpincho"
             className="buttonLink "
           />
@@ -16,7 +16,7 @@ function Buttons() {
       <div className="col-3">
         <a href="">
           <img
-            src="src/component/img/lapacho.jpg"
+            src="src/component/img/boton-historia.jpg"
             alt="carpincho"
             className="buttonLink"
           />
@@ -25,7 +25,7 @@ function Buttons() {
       <div className="col-3">
         <a href="">
           <img
-            src="src/component/img/carpincho.jpg"
+            src="src/component/img/boton-cultura.jpg"
             alt="plaza"
             className="buttonLink"
           />
@@ -34,7 +34,7 @@ function Buttons() {
       <div className="col-3">
         <a href="">
           <img
-            src="src/component/img/corrientesBarco.jpg"
+            src="src/component/img/boton-ibera.jpg"
             alt="corrientes"
             className="buttonLink"
           />

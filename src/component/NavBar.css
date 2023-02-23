@@ -6,4 +6,5 @@ li {
 
 li:hover {
   color: #d4255b;
+  text-decoration: underline;
 }
