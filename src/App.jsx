@@ -11,7 +11,7 @@ function App() {
       <header>
         <div className="row">
           <div className="col">
-            <h1 className="ps-5 p-2 fw-bold">el tamborcito</h1>
+            <h1 className="ps-5 p-2 fw-bold"><b>el</b>tamborcito<b>.com</b></h1>
           </div>
           <div className="col">
             <Search />
@@ -22,12 +22,13 @@ function App() {
         <NavBar />
         <hr />
       </header>
-      <div className="container-button">
-        <Buttons />
-      </div>
-      <div className="mt-5">
+      <div >
         <img src="src/component/img/banner1920x314.jpg" alt="" />
       </div>
+      <div className="container-button mt-5">
+        <Buttons />
+      </div>
+      
       <div className="bannerPublicidad">
         <img src="src/component/img/logo-corrientes1.png" alt="" />
       </div>
