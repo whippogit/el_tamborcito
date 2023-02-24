@@ -1,0 +1,23 @@
+.banner {
+  background-image: url("https://res.cloudinary.com/dm4wfkipp/image/upload/v1677278946/fondo-indio_bbavnx.jpg");
+  height: 314px;
+  filter: brightness(0.9);
+}
+
+.banner h5 {
+  background-color: transparent;
+  color: #ffffff;
+  padding-top: 50px;
+}
+
+.banner h4 {
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.letras-banner, H3 {
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 50px;
+  padding-top: 5px;
+}

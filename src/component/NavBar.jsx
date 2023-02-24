@@ -1,4 +1,5 @@
 import "./NavBar.css";
+import Search from "./Search";
 
 function NavBar() {
   return (
@@ -24,6 +25,9 @@ function NavBar() {
         </li>
         <li className="nav-item me-5">
           <a>Sobre Nosotros</a>
+        </li>
+        <li>
+          <Search />
         </li>
       </ul>
     </div>
