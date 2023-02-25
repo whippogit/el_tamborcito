@@ -8,13 +8,13 @@ function BannerMain() {
           capital nacional del carnaval
         </h5>
         <h1 className="container letras-banner fw-bold">
-          LA NOVIA DEL PARANÁ
+            CORRIENTES
         </h1>
         <h4 className="container">
-          ciudad de los murales, la cuna de San Martín
+          ciudad de leyendas, la cuna de San Martín
         </h4>
         <h3 className="container">
-          CIUDAD DE LEYENDAS
+          Ciudad<b className="b">de</b>murales
         </h3>
       </div>
     </div>

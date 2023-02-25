@@ -1,8 +1,12 @@
+import "./LogoTipo.css";
+
 function LogoTipo() {
   return (
     <>
       <h1 className="ps-5 p-2 mt-3 fw-bold">
-        <b>el</b>tamborcito<b>.com</b>
+        <a>
+          <b>el</b>tamborcito<b>.com</b>
+        </a>
       </h1>
     </>
   );

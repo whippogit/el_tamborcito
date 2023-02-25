@@ -3,7 +3,7 @@ import Search from "./Search";
 
 function NavBar() {
   return (
-    <div className="container bg-color">
+    <div className="container">
       <ul className="nav justify-content-center">
         <li className="nav-item me-5">
           <a>Home</a>

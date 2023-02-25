@@ -8,6 +8,7 @@
   background-color: transparent;
   color: #ffffff;
   padding-top: 50px;
+  font-size: 18px;
 }
 
 .banner h4 {
@@ -15,9 +16,25 @@
   color: #ffffff;
 }
 
-.letras-banner, H3 {
+.letras-banner {
   background-color: transparent;
-  color: #ffffff;
+  color: #000;
   font-size: 50px;
   padding-top: 5px;
+  text-decoration: underline;
+  font-family: montserrat;
+}
+
+h3 {
+  background-color: transparent;
+  color: #000;
+  font-size: 80px;
+  font-family: futura;
+}
+
+.b {
+  background-color: transparent;
+  color: #ffffff;
+  font-family: futura;
+  
 }
