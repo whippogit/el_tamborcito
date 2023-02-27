@@ -1,7 +1,7 @@
 .banner {
   background-image: url("https://res.cloudinary.com/dm4wfkipp/image/upload/v1677278946/fondo-indio_bbavnx.jpg");
   height: 314px;
-  filter: brightness(0.9);
+  filter: brightness(0.9 );
 }
 
 .banner h5 {

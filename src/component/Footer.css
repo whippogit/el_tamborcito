@@ -1,0 +1,27 @@
+.fondo-gradiente {
+  background: rgb(182, 14, 105);
+  background: linear-gradient(
+    180deg,
+    rgba(182, 14, 105, 1) 59%,
+    rgba(164, 19, 102, 1) 74%,
+    rgba(131, 29, 96, 1) 100%
+  );
+}
+
+.fondo-transparente {
+  background-color: transparent;
+}
+
+.config-footer {
+  color: #ffffff;
+}
+
+.config-logo {
+  width: 100px;
+  background-color: transparent;
+}
+
+.config-redes {
+  background-color: transparent;
+  color: #000;
+}

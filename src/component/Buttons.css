@@ -2,11 +2,9 @@
   margin: 140px;
 }
 
-
-
 .buttonLink {
-  width: 398px;
-  height: 147px;
+  width: 300px;
+  height: 100px;
   border-radius: 20px;
   background: rgb(212, 37, 91);
   background: radial-gradient(
@@ -14,10 +12,27 @@
     rgba(212, 37, 91, 1) 45%,
     rgba(252, 70, 107, 1) 88%
   );
-  
 }
 
-.buttonLink:hover{
+.buttonLink:hover {
   box-shadow: 1px 1px 1px 1px rgba(208, 206, 206, 0.841);
-  
 }
+
+.boton-leyenda {
+  background-image: url("https://res.cloudinary.com/dm4wfkipp/image/upload/v1677526034/boton-leyenda_s0d5of.jpg");
+  width: 398px;
+  height: 147px;
+}
+
+.boton-historia {
+  background-image: url("https://res.cloudinary.com/dm4wfkipp/image/upload/v1677537899/boton-historia_spd9mq.jpg");
+  width: 398px;
+  height: 147px;
+}
+
+.boton-esteros {
+  background-image: url("https://res.cloudinary.com/dm4wfkipp/image/upload/v1677538222/boton-esteros_dcheg4.jpg");
+  width: 398px;
+  height: 147px;
+}
+

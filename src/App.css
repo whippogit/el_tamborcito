@@ -1,5 +1,7 @@
 * {
   background-color: #f1eded;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -15,6 +17,7 @@ b {
 .container-button {
   margin-left: 140px;
   margin-right: 140px;
+ 
 }
 
 .bannerPublicidad {
@@ -22,3 +25,12 @@ b {
   justify-content: center;
   margin-top: 90px;
 }
+
+.margin-auto {
+  margin: auto;
+}
+
+.colorAcent {
+  color: rgb(182, 14, 105);
+}
+

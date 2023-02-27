@@ -1,10 +1,9 @@
 import NavBar from "./component/NavBar";
 import "./App.css";
-import StateBar from "./component/StateBar";
-import Search from "./component/Search";
 import Buttons from "./component/Buttons";
 import LogoTipo from "./component/LogoTipo";
 import BannerMain from "./component/BannerMain";
+import Footer from "./component/Footer";
 
 function App() {
   return (
@@ -23,12 +22,14 @@ function App() {
       <div>
         <BannerMain />
       </div>
-      <div className="container-button mt-5">
+
+      <div className="container mt-5">
         <Buttons />
       </div>
 
-      <div className="bannerPublicidad">
-        <img src="src/component/img/logo-corrientes1.png" alt="" />
+      <div className="bannerPublicidad"></div>
+      <div>
+        <Footer />
       </div>
     </div>
   );

@@ -26,9 +26,6 @@ function NavBar() {
         <li className="nav-item me-5">
           <a>Sobre Nosotros</a>
         </li>
-        <li>
-          <Search />
-        </li>
       </ul>
     </div>
   );
