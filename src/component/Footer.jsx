@@ -2,7 +2,7 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <div className="fondo-gradiente config-footer">
+    <div className="fondo-gradiente">
       <div className="container fondo-transparente d-flex justify-content-center">
         <img
           src="https://res.cloudinary.com/dm4wfkipp/image/upload/v1676646393/logo_tamborcito_negro_arthlx.png"

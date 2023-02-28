@@ -4,10 +4,17 @@ import Buttons from "./component/Buttons";
 import LogoTipo from "./component/LogoTipo";
 import BannerMain from "./component/BannerMain";
 import Footer from "./component/Footer";
+import Watch from "./component/Watch";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import PageLeyendas from "./component/PageLeyendas";
+import PageHistoria from "./component/PageHistoria";
+import PageIbera from "./component/PageIbera";
+import PageDetail from "./component/PageDetail";
+import SobreNosotros from "./component/SobreNosotros";
 
 function App() {
   return (
-    <div>
+    <>
       <header>
         <div className="row">
           <div className="col">
@@ -19,19 +26,31 @@ function App() {
         <NavBar />
         <hr />
       </header>
-      <div>
-        <BannerMain />
+      <div className="row">
+        <hr className="col mt-2" />
+        <div className="col container d-flex justify-content-center mb-2">
+          <Watch />
+        </div>
+        <hr className="col mt-2" />
       </div>
-
-      <div className="container mt-5">
-        <Buttons />
-      </div>
-
-      <div className="bannerPublicidad"></div>
-      <div>
+      <section className="mt-5">
+        <Router>
+          <Routes>
+            <Route path="/" element={<Buttons />} />
+            <Route path="/nuestras-leyendas" element={<PageLeyendas />} />
+            <Route path="/nuestras-historias" element={<PageHistoria />} />
+            <Route path="/esteros-del-iberá" element={<PageIbera />} />
+            <Route path="/esteros-del-iberá/iberá" element={<PageDetail />} />
+            <Route path="/nuestras-leyendas/leyendas" element= {<PageDetail />}/>
+            <Route path="/nuestras-historias/historias" element= {<PageDetail />}/>
+            
+          </Routes>
+        </Router>
+      </section>
+      <footer>
         <Footer />
-      </div>
-    </div>
+      </footer>
+    </>
   );
 }
 

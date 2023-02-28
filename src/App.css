@@ -1,9 +1,16 @@
 * {
-  background-color: #f1eded;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
+footer {
+  margin-top: auto;
+}
+
+.root {
+  min-height: 100vh;
+}
 h1 {
   font-family: montserrat, sans-serif;
   color: #000;
@@ -17,7 +24,6 @@ b {
 .container-button {
   margin-left: 140px;
   margin-right: 140px;
- 
 }
 
 .bannerPublicidad {
@@ -34,3 +40,6 @@ b {
   color: rgb(182, 14, 105);
 }
 
+section {
+  min-height: 515px;
+}

@@ -1,5 +1,6 @@
 import "./NavBar.css";
 import Search from "./Search";
+import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
