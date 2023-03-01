@@ -19,7 +19,7 @@ function PageIbera() {
                   <span className="fondo-transparente colorAcent">
                     el
                   </span>
-                  carpincho
+                  yaguareté 
                 </p>
                 <div className="fondo-transparente d-flex justify-content-center">
                   <h6 className="fondo-transparente text-dark m-0 p-0">
