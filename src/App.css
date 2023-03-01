@@ -4,8 +4,21 @@
   box-sizing: border-box;
 }
 
+header {
+  background-color: #ededed;
+}
+
 footer {
   margin-top: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #707070;
+}
+
+a:hover {
+  color: rgb(182, 14, 105);
 }
 
 .root {
@@ -42,4 +55,5 @@ b {
 
 section {
   min-height: 515px;
+  margin-top: 220px;
 }

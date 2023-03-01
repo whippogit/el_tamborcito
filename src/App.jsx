@@ -10,12 +10,12 @@ import PageLeyendas from "./component/PageLeyendas";
 import PageHistoria from "./component/PageHistoria";
 import PageIbera from "./component/PageIbera";
 import PageDetail from "./component/PageDetail";
-import SobreNosotros from "./component/SobreNosotros";
+import Error404 from "./component/Error404";
 
 function App() {
   return (
     <>
-      <header>
+      <header className="fixed-top">
         <div className="row">
           <div className="col">
             <LogoTipo />
@@ -25,15 +25,16 @@ function App() {
         <hr />
         <NavBar />
         <hr />
-      </header>
-      <div className="row">
-        <hr className="col mt-2" />
-        <div className="col container d-flex justify-content-center mb-2">
-          <Watch />
+        <div className="row">
+          <hr className="col mt-2" />
+          <div className="col container d-flex justify-content-center mb-2">
+            <Watch />
+          </div>
+          <hr className="col mt-2" />
         </div>
-        <hr className="col mt-2" />
-      </div>
-      <section className="mt-5">
+      </header>
+
+      <section>
         <Router>
           <Routes>
             <Route path="/" element={<Buttons />} />
@@ -41,9 +42,15 @@ function App() {
             <Route path="/nuestras-historias" element={<PageHistoria />} />
             <Route path="/esteros-del-iberá" element={<PageIbera />} />
             <Route path="/esteros-del-iberá/iberá" element={<PageDetail />} />
-            <Route path="/nuestras-leyendas/leyendas" element= {<PageDetail />}/>
-            <Route path="/nuestras-historias/historias" element= {<PageDetail />}/>
-            
+            <Route
+              path="/nuestras-leyendas/leyendas"
+              element={<PageDetail />}
+            />
+            <Route
+              path="/nuestras-historias/historias"
+              element={<PageDetail />}
+            />
+            <Route path="*" element={<Error404 />} />
           </Routes>
         </Router>
       </section>

@@ -14,7 +14,7 @@ function BannerMain() {
           ciudad de leyendas, la cuna de San Martín
         </h4>
         <h3 className="container">
-          Ciudad<b className="b">de</b>murales
+          ciudad<b className="b">de</b>murales
         </h3>
       </div>
     </div>

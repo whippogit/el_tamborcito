@@ -7,25 +7,25 @@ function NavBar() {
     <div className="container">
       <ul className="nav justify-content-center">
         <li className="nav-item me-5">
-          <a>Home</a>
+          <a href="/">Home</a>
         </li>
         <li className="nav-item me-5">
-          <a>Cultura</a>
+          <a href="#">Cultura</a>
         </li>
         <li className="nav-item me-5">
-          <a>Capital</a>
+          <a href="#">Capital</a>
         </li>
         <li className="nav-item me-5">
-          <a>Interior</a>
+          <a href="#">Interior</a>
         </li>
         <li className="nav-item me-5">
-          <a>Eventos</a>
+          <a href="#">Eventos</a>
         </li>
         <li className="nav-item me-5">
-          <a>Radio</a>
+          <a href="#">Radio</a>
         </li>
         <li className="nav-item me-5">
-          <a>Sobre Nosotros</a>
+          <a href="#">Sobre Nosotros</a>
         </li>
       </ul>
     </div>
