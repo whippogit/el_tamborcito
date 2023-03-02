@@ -1,6 +1,4 @@
 import "./NavBar.css";
-import Search from "./Search";
-import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
@@ -13,10 +11,7 @@ function NavBar() {
           <a href="#">Cultura</a>
         </li>
         <li className="nav-item me-5">
-          <a href="#">Capital</a>
-        </li>
-        <li className="nav-item me-5">
-          <a href="#">Interior</a>
+          <a href="#">Noticias</a>
         </li>
         <li className="nav-item me-5">
           <a href="#">Eventos</a>
@@ -25,7 +20,7 @@ function NavBar() {
           <a href="#">Radio</a>
         </li>
         <li className="nav-item me-5">
-          <a href="#">Sobre Nosotros</a>
+          <a href="/sobre-nosotros">Sobre Nosotros</a>
         </li>
       </ul>
     </div>

@@ -17,14 +17,15 @@ function PageIbera() {
 
         <div>
           <div className="container row m-5">
-            {all.map((dato) => (
+            {all.map((datoIbera) => (
               <Link
-                to="/esteros-del-iberá/iberá"
+                to={`/esteros-del-iberá/${datoIbera._id}`}
+                key={datoIbera._id}
                 className="col-3 boton-comodin buttonLink d-flex justify-content-center text-decoration-none m-1"
               >
                 <div className="fondo-transparente margin-auto">
                   <p className="fondo-transparente fs-5 text-dark fw-bold mb-0 pb-0">
-                    {dato.category}
+                    {datoIbera.title}
                   </p>
                   <div className="fondo-transparente d-flex justify-content-center">
                     <h6 className="fondo-transparente text-dark m-0 p-0">

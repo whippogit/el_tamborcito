@@ -1,6 +1,6 @@
-const url = "http://localhost:4000/api";
+const url = "http://localhost:5000/api";
 
-export async function getAllIbera() {
+export async function getAllLeyendas() {
     try {
       const response = await fetch(`${url}/noticias`);
       const data = await response.json();
