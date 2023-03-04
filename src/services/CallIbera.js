@@ -1,4 +1,4 @@
-const url = "http://localhost:4000/api";
+const url = "https://datakrakenibera.onrender.com/api";
 
 export async function getAllIbera() {
     try {

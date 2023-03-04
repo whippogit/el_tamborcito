@@ -1,4 +1,4 @@
-const url = "http://localhost:5000/api";
+const url = "https://datakrakenleyendas.onrender.com/api";
 
 export async function getAllLeyendas() {
     try {

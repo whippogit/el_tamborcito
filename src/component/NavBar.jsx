@@ -8,16 +8,16 @@ function NavBar() {
           <a href="/">Home</a>
         </li>
         <li className="nav-item me-5">
-          <a href="#">Cultura</a>
+          <a href="/proximamente">Cultura</a>
         </li>
         <li className="nav-item me-5">
-          <a href="#">Noticias</a>
+          <a href="/proximamente">Noticias</a>
         </li>
         <li className="nav-item me-5">
-          <a href="#">Eventos</a>
+          <a href="/proximamente">Eventos</a>
         </li>
         <li className="nav-item me-5">
-          <a href="#">Radio</a>
+          <a href="/proximamente">Radio</a>
         </li>
         <li className="nav-item me-5">
           <a href="/sobre-nosotros">Sobre Nosotros</a>

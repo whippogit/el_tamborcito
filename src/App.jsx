@@ -13,6 +13,7 @@ import PageDetailHistorias from "./component/PageDetailHistorias";
 import Error404 from "./component/Error404";
 import PageNosotros from "./component/PageNosotros";
 import PageDetailIbera from "./component/PageDetailIbera";
+import Proximamente from "./component/Proximamente";
 
 function App() {
   return (
@@ -52,7 +53,11 @@ function App() {
               path="/nuestras-historias/:id"
               element={<PageDetailHistorias />}
             />
-            <Route path="esteros-del-iberá/:id" element={<PageDetailIbera />} />
+            <Route
+              path="/esteros-del-iberá/:id"
+              element={<PageDetailIbera />}
+            />
+            <Route path="/proximamente" element={<Proximamente />} />
 
             <Route path="*" element={<Error404 />} />
           </Routes>

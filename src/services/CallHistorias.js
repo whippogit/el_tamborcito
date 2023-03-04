@@ -1,4 +1,4 @@
-const url = "http://localhost:3000/api";
+const url = "https://datakrakenhistorias.onrender.com/api";
 
 export async function getAllHistorias() {
     try {
