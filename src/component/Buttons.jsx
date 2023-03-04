@@ -66,7 +66,7 @@ function Buttons() {
         </div>
       </div>
       <div className="bannerPublicidad mb-3">
-        <img src="https://res.cloudinary.com/dm4wfkipp/image/upload/v1677637860/vacunate_c5ggrp.jpg" alt="" />
+        
       </div>
     </div>
   );
