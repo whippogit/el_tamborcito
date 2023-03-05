@@ -3,7 +3,7 @@ import "./BannerMain.css";
 function BannerMain() {
   return (
     <div>
-      <div className="banner">
+      <div className="banner d-none d-sm-block">
         <h5 className="container">
           capital nacional del carnaval
         </h5>

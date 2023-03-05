@@ -16,7 +16,7 @@ function PageLeyendas() {
         </div>
 
         <div>
-          <div className="container row m-5">
+          <div className="row m-5">
             {all.map((datoLeyenda) => (
               <Link
                 to={`/nuestras-leyendas/${datoLeyenda._id}`}

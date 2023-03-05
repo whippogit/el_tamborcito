@@ -14,6 +14,7 @@ import Error404 from "./component/Error404";
 import PageNosotros from "./component/PageNosotros";
 import PageDetailIbera from "./component/PageDetailIbera";
 import Proximamente from "./component/Proximamente";
+import Drop from "./component/Drop";
 
 function App() {
   return (
@@ -23,17 +24,23 @@ function App() {
           <div className="col">
             <LogoTipo />
           </div>
-          <div className="col"></div>
+          <div className="col">
+            <div className="mt-4">
+              <Drop />
+            </div>
+          </div>
         </div>
         <hr />
+
         <NavBar />
-        <hr />
+
+        <hr className="d-none d-sm-block" />
         <div className="row">
-          <hr className="col mt-2" />
+          <hr className="col mt-2 d-none d-sm-block" />
           <div className="col container d-flex justify-content-center mb-2">
             <Watch />
           </div>
-          <hr className="col mt-2" />
+          <hr className="col mt-2 d-none d-sm-block" />
         </div>
       </header>
 

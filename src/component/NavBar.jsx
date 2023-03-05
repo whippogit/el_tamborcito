@@ -2,7 +2,7 @@ import "./NavBar.css";
 
 function NavBar() {
   return (
-    <div className="container">
+    <div className="container d-none d-sm-block">
       <ul className="nav justify-content-center">
         <li className="nav-item me-5">
           <a href="/">Home</a>

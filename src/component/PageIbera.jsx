@@ -16,7 +16,7 @@ function PageIbera() {
         </div>
 
         <div>
-          <div className="container row m-5">
+          <div className="row m-5">
             {all.map((datoIbera) => (
               <Link
                 to={`/esteros-del-iberá/${datoIbera._id}`}
