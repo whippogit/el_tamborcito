@@ -20,8 +20,8 @@ function PageDetailLeyendas() {
       <div className="row m-5">
         <div className="col">
           <h1 className="colorAcent mb-3">{contentLeyenda.title}</h1>
-          <h6>{contentLeyenda.category}</h6>
-          <p>{contentLeyenda.content}</p>
+          <p className="config-text">{contentLeyenda.description}</p>
+          <p className="config-text">{contentLeyenda.content}</p>
         </div>
         <div className="col">
           <img
