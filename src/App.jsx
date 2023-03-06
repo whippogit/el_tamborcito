@@ -50,8 +50,8 @@ function App() {
             <Route path="/" element={<Buttons />} />
             <Route path="/sobre-nosotros" element={<PageNosotros />} />
             <Route path="/nuestras-leyendas" element={<PageLeyendas />} />
-            <Route path="/nuestras-historias" element={<PageHistoria />} />
-            <Route path="/esteros-del-iberá" element={<PageIbera />} />
+            <Route path="/nuestras-historias" element={<Proximamente />} />
+            <Route path="/esteros-del-iberá" element={<Proximamente />} />
             <Route
               path="/nuestras-leyendas/:id"
               element={<PageDetailLeyendas />}
