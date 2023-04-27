@@ -1,8 +1,8 @@
 function Drop() {
   return (
-    <div class="dropdown d-block d-sm-none">
+    <div className="dropdown d-block d-sm-none">
       <button
-        class="btn btn-light dropdown-toggle"
+        className="btn btn-light dropdown-toggle"
         type="button"
         id="dropdownMenu2"
         data-bs-toggle="dropdown"
@@ -10,19 +10,19 @@ function Drop() {
       >
         menú
       </button>
-      <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+      <ul className="dropdown-menu" aria-labelledby="dropdownMenu2">
         <li>
-          <a class="dropdown-item" type="button">
+          <a className="dropdown-item" type="button">
             Action
           </a>
         </li>
         <li>
-          <a class="dropdown-item" type="button">
+          <a className="dropdown-item" type="button">
             Another action
           </a>
         </li>
         <li>
-          <a class="dropdown-item" type="button">
+          <a className="dropdown-item" type="button">
             Something else here
           </a>
         </li>

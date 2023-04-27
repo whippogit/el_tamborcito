@@ -25,7 +25,7 @@ function PageLeyendas() {
               >
                 <div className="fondo-transparente margin-auto">
                   <p className="fondo-transparente fs-5 text-dark fw-bold mb-0 pb-0">
-                    {datoLeyenda.title}
+                    {datoLeyenda.titleLegends}
                   </p>
                   <div className="fondo-transparente d-flex justify-content-center">
                     <h6 className="fondo-transparente text-dark m-0 p-0">

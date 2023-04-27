@@ -15,8 +15,8 @@ export async function getAllLeyendas() {
     try {
       const response = await fetch(`${url}/${id}`);
       const peticion = await response.json();
-      console.log(peticion.noticia);
-      return peticion.noticia;
+      console.log(peticion.leyenda);
+      return peticion.leyenda;
     } catch (error) {
       console.log(error);
     }
