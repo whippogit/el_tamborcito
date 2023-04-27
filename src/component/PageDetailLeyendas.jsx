@@ -19,15 +19,15 @@ function PageDetailLeyendas() {
     <div className="container">
       <div className="row m-5">
         <div className="col">
-          <h1 className="colorAcent mb-3">{contentLeyenda.title}</h1>
-          <p className="config-text">{contentLeyenda.description}</p>
-          <p className="config-text">{contentLeyenda.content}</p>
+          <h1 className="colorAcent mb-3">{contentLeyenda.titleLegends}</h1>
+          <p className="config-text">{contentLeyenda.descriptionLegends}</p>
+          <p className="config-text">{contentLeyenda.contentLegends}</p>
         </div>
         <div className="col">
           <img
             src={contentLeyenda.image_url}
-            alt={contentLeyenda.title}
-            title={contentLeyenda.title}
+            alt={contentLeyenda.titleLegends}
+            title={contentLeyenda.titleLegends}
             className="img-size mt-5"
           />
         </div>
