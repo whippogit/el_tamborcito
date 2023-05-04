@@ -65,9 +65,7 @@ function Buttons() {
           </Link>
         </div>
       </div>
-      <div className="bannerPublicidad mb-3">
-        
-      </div>
+      
     </div>
   );
 }

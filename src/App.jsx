@@ -70,6 +70,14 @@ function App() {
           </Routes>
         </Router>
       </section>
+      <div className="d-flex justify-content-center m-5">
+        <img
+          src="https://res.cloudinary.com/dm4wfkipp/image/upload/v1677775249/logo-corrientes_rzqz0i.png"
+          alt="Corrientes somos todos"
+          title="Corrientes somos todos"
+          className="banner-ctes"
+        />
+      </div>
       <footer>
         <Footer />
       </footer>

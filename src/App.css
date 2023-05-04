@@ -68,3 +68,7 @@ section {
   white-space: -moz-pre-wrap;
   white-space: -o-pre-wrap;
 }
+
+.banner-ctes {
+  width: 350px;
+}
