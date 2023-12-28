@@ -1,19 +1,19 @@
-const url = "https://datakrakenhistorias.onrender.com/api";
+const url = "https://whippo-eq6x.onrender.com/api/historias";
 
-export async function getAllHistorias() {
-    try {
-      const response = await fetch(`${url}/noticias`);
-      const data = await response.json();
-      console.log(data.results);
-      return data.results.reverse();
-    } catch (error) {
-      console.log(error);
-    }
+export async function getAllDatosHistorias() {
+  try {
+    const response = await fetch(`${url}`);
+    const data = await response.json();
+    console.log(data.results);
+    return data.results.reverse();
+  } catch (error) {
+    console.log(error);
   }
+}
 
-  export async function getNewsById(id) {
+  export async function getHistoriasById(id) {
     try {
-      const response = await fetch(`${url}/noticias/${id}`);
+      const response = await fetch(`${url}/${id}`);
       const peticion = await response.json();
       console.log(peticion.noticia);
       return peticion.noticia;

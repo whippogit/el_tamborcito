@@ -72,3 +72,17 @@ section {
 .banner-ctes {
   width: 350px;
 }
+
+.img-noticias {
+  width: 100%;
+  
+}
+
+.card-noticias {
+  max-width: 300px;
+  border-radius: 15px;
+}
+
+h6 {
+  text-decoration: underline;
+}

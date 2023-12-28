@@ -11,7 +11,7 @@ function NavBar() {
           <a href="/proximamente">Cultura</a>
         </li>
         <li className="nav-item me-5">
-          <a href="/proximamente">Noticias</a>
+          <a href="/noticias">Noticias</a>
         </li>
         <li className="nav-item me-5">
           <a href="/proximamente">Eventos</a>

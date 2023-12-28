@@ -15,6 +15,7 @@ import PageNosotros from "./component/PageNosotros";
 import PageDetailIbera from "./component/PageDetailIbera";
 import Proximamente from "./component/Proximamente";
 import Drop from "./component/Drop";
+import PageNoticias from "./component/PageNoticias";
 
 function App() {
   return (
@@ -65,6 +66,7 @@ function App() {
               element={<PageDetailIbera />}
             />
             <Route path="/proximamente" element={<Proximamente />} />
+            <Route path="/noticias" element={<PageNoticias />} />
 
             <Route path="*" element={<Error404 />} />
           </Routes>
